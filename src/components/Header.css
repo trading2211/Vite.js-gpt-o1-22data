@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #2c2c3e;
+  padding: 10px 0;
+}
+
+.header button {
+  background-color: #3c3c4e;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.header button:hover {
+  background-color: #4c4c5e;
+}
