@@ -1,0 +1,17 @@
+.statistics-card {
+  background-color: #3c3c4e;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.statistics-card h3 {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+.statistics-card p {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
