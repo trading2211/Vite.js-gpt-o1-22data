@@ -1,0 +1,42 @@
+.dashboard-content {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #1E1E2F;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.statistics {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.charts-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.chart-container {
+  background-color: #2c2c3e;
+  border-radius: 8px;
+  padding: 12px;
+  height: calc((100vh - 180px) / 2);
+  min-height: 250px;
+}
+
+.chart {
+  height: 100%;
+  width: 100%;
+}
+
+.additional-charts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
